@@ -44,6 +44,11 @@ public class NonVisualTestSupport {
     public NonVisualTestSupport(String baseResourcePath, String outFilePath) {
         this.baseResPath = baseResourcePath;
         this.outPath = outFilePath;
+        try {
+            Files.createDirectories(Paths.get(outPath));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     private void render(
