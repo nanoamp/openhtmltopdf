@@ -70,7 +70,7 @@ from ````/openhtmltopdf-examples/src/main/java/com/openhtmltopdf/testcases/Testc
 
 ## CHANGELOG
 
-### head - 1.0.10-1.6
+### head - 1.0.10-1.2
 + See commit log.
 
 ### 1.0.10 (2021-September-13)
